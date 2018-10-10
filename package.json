@@ -1,0 +1,20 @@
+{
+  "name": "webpack-website",
+  "version": "1.0.0",
+  "description": "A low dependency single page web application created with webpackjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kharonus/webpack-website.git"
+  },
+  "keywords": ["web"],
+  "author": "Eric Schubert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kharonus/webpack-website/issues"
+  },
+  "homepage": "https://github.com/Kharonus/webpack-website#readme"
+}
