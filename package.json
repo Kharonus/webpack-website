@@ -1,0 +1,32 @@
+{
+  "name": "webpack-website",
+  "version": "1.0.0",
+  "description": "A low dependency single page web application created with webpackjs",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kharonus/webpack-website.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Eric Schubert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kharonus/webpack-website/issues"
+  },
+  "homepage": "https://github.com/Kharonus/webpack-website#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
