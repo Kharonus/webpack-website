@@ -16,3 +16,6 @@ typings/
 
 # Optional npm cache directory
 .npm
+
+# Deploy script
+deploy.bat
