@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+button {
+    height: 32px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+
+    &:active {
+        border-style: inset;
+    }
+
+    &.light {
+        color: $lightgray;
+        border-color: $lightgray;
+    }
+}

@@ -1,0 +1,55 @@
+ @import "./variables.scss";
+ @import "./buttons.scss";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: $blue;
+    height: $header-height;
+    width: 100%;
+    position: fixed;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content {
+    padding: 4em;
+    background-image: linear-gradient(to right, lightgray, white, lightgray);
+
+    h1 {
+        border-bottom: 2px solid lightcoral;
+    }
+
+    .placeholder {
+        width: 100%;
+        height: 1200px;
+        background-image: radial-gradient(circle at 20% 20%, red, transparent);
+    }
+}
+
+/* Mobile Phones (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px) {
+    .content {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .content {
+        width: 992px;
+        margin: auto;
+    }
+}
+
