@@ -3,16 +3,28 @@
 button {
     height: 32px;
     background-color: transparent;
-    border-style: solid;
-    border-width: 4px;
-    border-radius: 4px;
+    border: 2px solid;
+    border-radius: 2px;
 
     &:active {
-        border-style: inset;
+        box-shadow: inset 0 0 10px;
     }
 
-    &.light {
+    &:focus {
+        outline: none;
+    }
+
+    &.icon {
         color: $lightgray;
-        border-color: $lightgray;
+    }
+
+    &.list {
+        width: 120px;
+        text-align: right;
+        color: lightgray;
+        border-bottom-width: 1px;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-left-width: 0;
     }
 }

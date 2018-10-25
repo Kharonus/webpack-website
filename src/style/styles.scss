@@ -23,6 +23,22 @@ body {
     align-items: center;
 }
 
+#navigation-menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: $header-height;
+    visibility: collapse;
+    list-style: none;
+    background-color: $blue;
+
+    li {
+        width: fit-content;
+        margin: 0;
+    }
+}
+
 .content {
     padding: 4em;
     background-image: linear-gradient(to right, lightgray, white, lightgray);

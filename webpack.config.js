@@ -21,7 +21,17 @@ module.exports = {
                         includePaths: ["src/style"]
                     }
                 }]
+            },
+            {
+                test: /\.html$/,
+                use: [{
+                    loader: 'html-loader',
+                    options: {
+                        minimize: true
+                    }
+                }],
             }
+
         ]
     },
     resolve: {
