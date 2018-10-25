@@ -2,10 +2,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.construction-label {
-    font-weight: bold;
-    letter-spacing: 2pt;
-    border: 2px solid darkkhaki;
-    padding: 8px;
-    width: fit-content;
+/* Mobile Phones (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 992px;
+        margin: auto;
+    }
+}
+
+.container {
+    padding: 4em;
+    background-image: linear-gradient(to right, lightgray, white, lightgray);
+
+    h1 {
+        border-bottom: 2px solid lightcoral;
+    }
+
+    .placeholder {
+        width: 100%;
+        height: 1200px;
+        background-image: radial-gradient(circle at 20% 20%, red, transparent);
+    }
 }
