@@ -15,13 +15,13 @@ button {
     }
 
     &.icon {
-        color: $lightgray;
+        color: $brightgreen;
     }
 
     &.list {
         width: 120px;
         text-align: right;
-        color: lightgray;
+        color: $brightgreen;
         border-bottom-width: 1px;
         border-top-width: 0;
         border-right-width: 0;
