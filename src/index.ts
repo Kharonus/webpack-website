@@ -1,12 +1,13 @@
-import './styles.scss';
+import './style/styles.scss';
 
-function createConstructionShield(): HTMLElement {
-    const element = document.createElement('div');
-	
-	element.innerHTML = 'Currently under construction...';
-	element.classList.add('construction-label');
-	
-	return element;
-}
+import { HeaderComponent } from './components/header/header.component';
+import { ContentComponent } from './components/content/content.component';
 
-document.body.appendChild(createConstructionShield());
+const headerComponent = new HeaderComponent();
+const contentComponent = new ContentComponent();
+
+// Create HTML
+headerComponent.createHtml();
+contentComponent.createHtml();
+
+
